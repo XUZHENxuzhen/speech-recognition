@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.5" contentMode="scaleToFill" id="iN0-l3-epB" customClass="AninationView">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="222" translatesAutoresizingMaskIntoConstraints="NO" id="Tjt-Ne-rvw">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="222" translatesAutoresizingMaskIntoConstraints="NO" id="zbx-1L-QAX">
+                    <rect key="frame" x="50" y="50" width="100" height="100"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Tjt-Ne-rvw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2gX-Bw-kfN"/>
+                <constraint firstItem="zbx-1L-QAX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Kgn-Lt-SuE"/>
+                <constraint firstItem="zbx-1L-QAX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="M6u-CT-akq"/>
+                <constraint firstAttribute="trailing" secondItem="Tjt-Ne-rvw" secondAttribute="trailing" id="OzC-Ix-Imb"/>
+                <constraint firstItem="zbx-1L-QAX" firstAttribute="height" secondItem="Tjt-Ne-rvw" secondAttribute="height" multiplier="0.5" id="Sk4-Xj-fAd"/>
+                <constraint firstItem="zbx-1L-QAX" firstAttribute="width" secondItem="Tjt-Ne-rvw" secondAttribute="width" multiplier="0.5" id="Vnn-y3-JqH"/>
+                <constraint firstItem="Tjt-Ne-rvw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cBo-G5-t3l"/>
+                <constraint firstAttribute="bottom" secondItem="Tjt-Ne-rvw" secondAttribute="bottom" id="kJE-Wl-ahJ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imagViewS" destination="Tjt-Ne-rvw" id="cge-QQ-s9s"/>
+                <outlet property="imageViewIn" destination="zbx-1L-QAX" id="ZDN-eu-Thm"/>
+            </connections>
+            <point key="canvasLocation" x="252" y="34"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="222" width="1083" height="1083"/>
+    </resources>
+</document>

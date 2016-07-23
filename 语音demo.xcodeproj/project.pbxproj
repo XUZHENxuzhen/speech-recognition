@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D07F31E1D3F5E93003D3514 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07F31D1D3F5E93003D3514 /* ISRDataHelper.m */; };
+		4D07F3211D3F67A0003D3514 /* AninationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07F3201D3F67A0003D3514 /* AninationView.m */; };
+		4D07F3231D3F67C4003D3514 /* AninationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D07F3221D3F67C4003D3514 /* AninationView.xib */; };
 		4D6AB65D1D3DDBBE006AFBBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6AB65C1D3DDBBE006AFBBC /* main.m */; };
 		4D6AB6601D3DDBBE006AFBBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6AB65F1D3DDBBE006AFBBC /* AppDelegate.m */; };
 		4D6AB6631D3DDBBE006AFBBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6AB6621D3DDBBE006AFBBC /* ViewController.m */; };
@@ -14,9 +17,29 @@
 		4D6AB6691D3DDBBE006AFBBC /* __demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D6AB6671D3DDBBE006AFBBC /* __demo.xcdatamodeld */; };
 		4D6AB66B1D3DDBBE006AFBBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6AB66A1D3DDBBE006AFBBC /* Assets.xcassets */; };
 		4D6AB66E1D3DDBBE006AFBBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6AB66C1D3DDBBE006AFBBC /* LaunchScreen.storyboard */; };
+		4D6AB6781D3DDCAF006AFBBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6AB6771D3DDCAF006AFBBC /* CoreGraphics.framework */; };
+		4D6AB67A1D3DDCB6006AFBBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6AB6791D3DDCB6006AFBBC /* UIKit.framework */; };
+		4D6AB67C1D3DDCBF006AFBBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6AB67B1D3DDCBF006AFBBC /* Foundation.framework */; };
+		4D6AB67E1D3DDCD3006AFBBC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6AB67D1D3DDCD3006AFBBC /* libz.tbd */; };
+		4D6AB6801D3DDCE1006AFBBC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6AB67F1D3DDCE1006AFBBC /* CoreTelephony.framework */; };
+		4D6AB6821D3DDCEA006AFBBC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6AB6811D3DDCEA006AFBBC /* CoreLocation.framework */; };
+		4D6AB6841D3DDCF4006AFBBC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6AB6831D3DDCF4006AFBBC /* AVFoundation.framework */; };
+		4D6AB6861D3DDCFE006AFBBC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6AB6851D3DDCFE006AFBBC /* AddressBook.framework */; };
+		4D6AB6881D3DDD0C006AFBBC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6AB6871D3DDD0B006AFBBC /* AudioToolbox.framework */; };
+		4D6AB68A1D3DDD2F006AFBBC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6AB6891D3DDD2F006AFBBC /* SystemConfiguration.framework */; };
+		4D6AB68C1D3DDD3A006AFBBC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6AB68B1D3DDD3A006AFBBC /* QuartzCore.framework */; };
+		4D6AB68E1D3DDD5D006AFBBC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6AB68D1D3DDD5D006AFBBC /* libc++.tbd */; };
+		4D6AB7871D3DFA8F006AFBBC /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6AB7861D3DFA8F006AFBBC /* iflyMSC.framework */; };
+		4D6AB78A1D3E0153006AFBBC /* IATConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6AB7891D3E0153006AFBBC /* IATConfig.m */; };
+		4D6AB78D1D3E1788006AFBBC /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6AB78C1D3E1788006AFBBC /* BViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D07F31C1D3F5E93003D3514 /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
+		4D07F31D1D3F5E93003D3514 /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
+		4D07F31F1D3F67A0003D3514 /* AninationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AninationView.h; sourceTree = "<group>"; };
+		4D07F3201D3F67A0003D3514 /* AninationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AninationView.m; sourceTree = "<group>"; };
+		4D07F3221D3F67C4003D3514 /* AninationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AninationView.xib; sourceTree = "<group>"; };
 		4D6AB6581D3DDBBE006AFBBC /* 语音demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "语音demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6AB65C1D3DDBBE006AFBBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D6AB65E1D3DDBBE006AFBBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +51,23 @@
 		4D6AB66A1D3DDBBE006AFBBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D6AB66D1D3DDBBE006AFBBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D6AB66F1D3DDBBE006AFBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6AB6771D3DDCAF006AFBBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D6AB6791D3DDCB6006AFBBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D6AB67B1D3DDCBF006AFBBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D6AB67D1D3DDCD3006AFBBC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4D6AB67F1D3DDCE1006AFBBC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4D6AB6811D3DDCEA006AFBBC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4D6AB6831D3DDCF4006AFBBC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4D6AB6851D3DDCFE006AFBBC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		4D6AB6871D3DDD0B006AFBBC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4D6AB6891D3DDD2F006AFBBC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4D6AB68B1D3DDD3A006AFBBC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4D6AB68D1D3DDD5D006AFBBC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		4D6AB7861D3DFA8F006AFBBC /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		4D6AB7881D3E0153006AFBBC /* IATConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATConfig.h; sourceTree = "<group>"; };
+		4D6AB7891D3E0153006AFBBC /* IATConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATConfig.m; sourceTree = "<group>"; };
+		4D6AB78B1D3E1788006AFBBC /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		4D6AB78C1D3E1788006AFBBC /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +75,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6AB68E1D3DDD5D006AFBBC /* libc++.tbd in Frameworks */,
+				4D6AB68C1D3DDD3A006AFBBC /* QuartzCore.framework in Frameworks */,
+				4D6AB68A1D3DDD2F006AFBBC /* SystemConfiguration.framework in Frameworks */,
+				4D6AB6881D3DDD0C006AFBBC /* AudioToolbox.framework in Frameworks */,
+				4D6AB6861D3DDCFE006AFBBC /* AddressBook.framework in Frameworks */,
+				4D6AB6841D3DDCF4006AFBBC /* AVFoundation.framework in Frameworks */,
+				4D6AB6821D3DDCEA006AFBBC /* CoreLocation.framework in Frameworks */,
+				4D6AB6801D3DDCE1006AFBBC /* CoreTelephony.framework in Frameworks */,
+				4D6AB67E1D3DDCD3006AFBBC /* libz.tbd in Frameworks */,
+				4D6AB67C1D3DDCBF006AFBBC /* Foundation.framework in Frameworks */,
+				4D6AB67A1D3DDCB6006AFBBC /* UIKit.framework in Frameworks */,
+				4D6AB6781D3DDCAF006AFBBC /* CoreGraphics.framework in Frameworks */,
+				4D6AB7871D3DFA8F006AFBBC /* iflyMSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +97,19 @@
 		4D6AB64F1D3DDBBE006AFBBC = {
 			isa = PBXGroup;
 			children = (
+				4D6AB68D1D3DDD5D006AFBBC /* libc++.tbd */,
+				4D6AB7861D3DFA8F006AFBBC /* iflyMSC.framework */,
+				4D6AB68B1D3DDD3A006AFBBC /* QuartzCore.framework */,
+				4D6AB6891D3DDD2F006AFBBC /* SystemConfiguration.framework */,
+				4D6AB6871D3DDD0B006AFBBC /* AudioToolbox.framework */,
+				4D6AB6851D3DDCFE006AFBBC /* AddressBook.framework */,
+				4D6AB6831D3DDCF4006AFBBC /* AVFoundation.framework */,
+				4D6AB6811D3DDCEA006AFBBC /* CoreLocation.framework */,
+				4D6AB67F1D3DDCE1006AFBBC /* CoreTelephony.framework */,
+				4D6AB67D1D3DDCD3006AFBBC /* libz.tbd */,
+				4D6AB67B1D3DDCBF006AFBBC /* Foundation.framework */,
+				4D6AB6791D3DDCB6006AFBBC /* UIKit.framework */,
+				4D6AB6771D3DDCAF006AFBBC /* CoreGraphics.framework */,
 				4D6AB65A1D3DDBBE006AFBBC /* 语音demo */,
 				4D6AB6591D3DDBBE006AFBBC /* Products */,
 			);
@@ -64,6 +130,15 @@
 				4D6AB65F1D3DDBBE006AFBBC /* AppDelegate.m */,
 				4D6AB6611D3DDBBE006AFBBC /* ViewController.h */,
 				4D6AB6621D3DDBBE006AFBBC /* ViewController.m */,
+				4D6AB78B1D3E1788006AFBBC /* BViewController.h */,
+				4D6AB78C1D3E1788006AFBBC /* BViewController.m */,
+				4D07F31C1D3F5E93003D3514 /* ISRDataHelper.h */,
+				4D07F31D1D3F5E93003D3514 /* ISRDataHelper.m */,
+				4D6AB7881D3E0153006AFBBC /* IATConfig.h */,
+				4D6AB7891D3E0153006AFBBC /* IATConfig.m */,
+				4D07F31F1D3F67A0003D3514 /* AninationView.h */,
+				4D07F3201D3F67A0003D3514 /* AninationView.m */,
+				4D07F3221D3F67C4003D3514 /* AninationView.xib */,
 				4D6AB6641D3DDBBE006AFBBC /* Main.storyboard */,
 				4D6AB66A1D3DDBBE006AFBBC /* Assets.xcassets */,
 				4D6AB66C1D3DDBBE006AFBBC /* LaunchScreen.storyboard */,
@@ -141,6 +216,7 @@
 			files = (
 				4D6AB66E1D3DDBBE006AFBBC /* LaunchScreen.storyboard in Resources */,
 				4D6AB66B1D3DDBBE006AFBBC /* Assets.xcassets in Resources */,
+				4D07F3231D3F67C4003D3514 /* AninationView.xib in Resources */,
 				4D6AB6661D3DDBBE006AFBBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,9 +228,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D07F31E1D3F5E93003D3514 /* ISRDataHelper.m in Sources */,
 				4D6AB6631D3DDBBE006AFBBC /* ViewController.m in Sources */,
+				4D6AB78D1D3E1788006AFBBC /* BViewController.m in Sources */,
+				4D6AB78A1D3E0153006AFBBC /* IATConfig.m in Sources */,
 				4D6AB6601D3DDBBE006AFBBC /* AppDelegate.m in Sources */,
 				4D6AB6691D3DDBBE006AFBBC /* __demo.xcdatamodeld in Sources */,
+				4D07F3211D3F67A0003D3514 /* AninationView.m in Sources */,
 				4D6AB65D1D3DDBBE006AFBBC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +345,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/语音demo",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "语音demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "angewin.--demo";
@@ -276,6 +361,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/语音demo",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "语音demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "angewin.--demo";
@@ -302,6 +392,7 @@
 				4D6AB6741D3DDBBE006AFBBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
